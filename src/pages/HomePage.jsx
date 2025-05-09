@@ -5,6 +5,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import HowItWorksSection from "@/components/sections/HowItWorksSection";
 import WhyChooseUsSection from "@/components/sections/WhyChooseUsSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import ContactFormSection from "@/components/sections/ContactFormSection";
 
 const HomePage = () => {
   const contactFormRef = useRef(null);
@@ -21,6 +22,7 @@ const HomePage = () => {
         <HowItWorksSection />
         <WhyChooseUsSection />
         <TestimonialsSection />
+        <ContactFormSection ref={contactFormRef} />
       </main>
       <Footer />
     </div>
