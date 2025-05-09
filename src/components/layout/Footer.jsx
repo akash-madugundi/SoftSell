@@ -17,6 +17,9 @@ const Footer = () => {
         <p className="text-xs mt-1">
           Your trusted partner for software license resale.
         </p>
+        <p className="text-xs mt-2">
+          <em>Made By Akash Madugundi with ❤️</em>
+        </p>
       </div>
     </m.footer>
   );

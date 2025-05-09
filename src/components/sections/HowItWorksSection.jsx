@@ -1,7 +1,7 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { UploadCloud, DollarSign, CheckCircle } from "lucide-react";
+import { UploadCloud, IndianRupee, CheckCircle } from "lucide-react";
 
 const steps = [
   {
@@ -11,7 +11,7 @@ const steps = [
       "Securely submit details of your unused software licenses through our easy-to-use portal.",
   },
   {
-    icon: <DollarSign className="h-12 w-12 text-primary" />,
+    icon: <IndianRupee className="h-12 w-12 text-primary" />,
     title: "Get Valuation",
     description:
       "Our experts quickly assess your licenses and provide a competitive market valuation.",
