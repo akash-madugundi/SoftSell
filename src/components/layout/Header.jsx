@@ -1,6 +1,7 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 const Header = ({ onGetQuoteClick }) => {
   return (
@@ -51,6 +52,7 @@ const Header = ({ onGetQuoteClick }) => {
               Contact
             </a>
           </nav>
+          <ThemeToggle />
           <Button
             onClick={onGetQuoteClick}
             className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-semibold"
