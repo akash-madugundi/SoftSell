@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import HeroSection from "@/components/sections/HeroSection";
 
 const HomePage = () => {
   const contactFormRef = useRef(null);
@@ -13,7 +14,7 @@ const HomePage = () => {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-background to-muted/30">
       <Header onGetQuoteClick={handleGetQuoteClick} />
       <main className="flex-grow">
-        <h1>Hello World</h1>
+        <HeroSection onGetQuoteClick={handleGetQuoteClick} />
       </main>
       <Footer />
     </div>
