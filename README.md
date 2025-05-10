@@ -62,4 +62,4 @@ npm run dev
 *   Approximately 3-4 hours (including initial setup, component creation, styling, content integration, and refinements).
 
 ## Live Demo & Repository
-*   **Live Demo:** \[Placeholder - To be updated after deployment]
+*   **Live Demo:** [Click Here](https://softsell-liard.vercel.app/)
