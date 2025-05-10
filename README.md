@@ -35,7 +35,6 @@ SoftSell is a modern, single-page marketing website designed to help businesses 
 
 ### Prerequisites
 - Node.js & npm installed
-- PostgreSQL database setup
 
 ### Steps to Run Locally
 #### Clone the Repository
