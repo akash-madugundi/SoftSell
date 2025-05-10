@@ -13,7 +13,7 @@ SoftSell is a modern, single-page marketing website designed to help businesses 
 *   **SEO Tags:** Basic meta title and description for search engine optimization.
 *   **Responsive Design:** The website is fully responsive and adapts to various screen sizes (desktop, tablet, mobile).
 *   **Modern UI/UX:** Clean layout, ample padding and spacing, modern blue/soft tech color palette, and smooth animations using Framer Motion.
-*   **AI Chat Widget (Mock):** A floating chat button that opens a modal with a hardcoded Q&A interaction for "How do I sell my license?".
+*   **AI Chat Widget (Mock):** A floating chat button that opens a modal with a hardcoded Q&As interaction.
 *   PFA-
   ![image](https://github.com/user-attachments/assets/8c23c2d7-504d-4ef4-8fc6-400381b4738e)
   ![image](https://github.com/user-attachments/assets/1dcbbe9d-c3ca-4e5f-93e9-6d8e798038ee)
