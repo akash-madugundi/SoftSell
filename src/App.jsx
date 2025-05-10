@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import HomePage from "@/pages/HomePage";
 import { Toaster } from "@/components/ui/toaster";
 import { useDarkMode } from "@/hooks/useDarkMode";
+import ChatWidget from "@/components/ui/ChatWidget";
 
 function App() {
   const [isDarkMode] = useDarkMode(); // Initialize dark mode check
@@ -19,6 +20,7 @@ function App() {
     <>
       <HomePage />
       <Toaster />
+      <ChatWidget />
     </>
   );
 }
